@@ -1,0 +1,309 @@
+﻿@model BeFir.Models.LoginViewModel;
+
+
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<head>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet" />
+</head>
+
+ <div class="container-fluid">
+    <div class="login-box">
+        <div class="row no-margin w-100 bklmj">
+            <div class="col-lg-6 col-md-6 log-det">
+                <h2>Login</h2>
+                <div class="row no-margin past">
+                    <p>Don't Have an Account?<span> </span><a href="/Home/Registration" style="color:black">Register now</a></p>
+                </div>
+
+                <div class="text-box-cont">
+                 
+
+                        @using (Html.BeginForm("loginUser", "Users", FormMethod.Post))
+                    
+                        {
+                           <div id="login">
+
+                               <div class="input-group mb-3">
+                                @Html.TextBoxFor(m => m.User.Username, new { @class = "form-control login-input", @placeholder = "Username", @aria_label = "Username", @aria_describedby = "basic-addon1" })
+                                @Html.ValidationMessageFor(m => m.User.Username, "", new { style = "color: white;" })
+
+                            </div>
+                               <div class="input-group mb-3">
+                                @Html.PasswordFor(m => m.User.Password, new { @class = "form-control login-input", @placeholder = "Password", @aria_label = "Password", @aria_describedby = "basic-addon1" })
+                                @Html.ValidationMessageFor(m => m.User.Password, "", new { style = "color: white;" })
+
+                            </div>
+                               <input type="hidden" name="UandA" value="User" />
+                           </div>
+                                <p>@ViewBag.UserMsg</p>
+                            <div class="right-bkij mb-3">
+                                <input type="submit" value="Sign In" class="btn btn-round login-btn" />
+                            </div>
+                    }
+                   
+                    <br>
+                    <div class="row linkoi">
+                        <div class="col-sm-5">
+                            <p>Or login with</p>
+                        </div>
+                        <div class="col-sm-7">
+                            <ul class="social-icons">
+                                <li><i class="ri-google-fill"></i></li>
+                                <li><i class="ri-facebook-box-fill"></i></li>
+                                <li><i class="ri-instagram-fill"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 box-de">
+                <div class="ditk-inf">
+                    <h2 class="w-100">Admin Login</h2>
+                    <div class="row no-margin past">
+                        <p class="welcome">Welcome to BeFit</p>
+                    </div>
+                    <div class="text-box-cont">
+                        @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                        {
+                                <div id="login">
+
+                                    <div class="input-group mb-3">
+                                    @Html.TextBoxFor(m => m.Admin.Username, new { @class = "form-control login-input", @placeholder = "Username", @aria_label = "Username", @aria_describedby = "basic-addon1" })
+                                    @Html.ValidationMessageFor(m => m.Admin.Username, "", new { @class = "text-danger" })
+
+                                </div>
+                                    <div class="input-group mb-3">
+                                    @Html.PasswordFor(m => m.Admin.Password, new { @class = "form-control login-input", @placeholder = "Password", @aria_label = "Password", @aria_describedby = "basic-addon1" })
+                                    @Html.ValidationMessageFor(m => m.Admin.Password, "", new { @class = "text-danger" })
+
+                                </div>
+                                     <p>@ViewBag.AdMsg</p>    
+                                </div>
+                                <div class="right-bkij mb-3">
+                                    <input type="submit" value="Sign In" class="btn btn-round login-btn" />
+                                </div>
+                        }
+                        <br>
+                        <div class="row linkoi">
+                            <div class="col-sm-5">
+                                <p>Or login with</p>
+                            </div>
+                            <div class="col-sm-7">
+                                <ul class="social-icons">
+                                    <li><i class="ri-google-fill"></i></li>
+                                <li><i class="ri-facebook-box-fill"></i></li>
+                                <li><i class="ri-instagram-fill"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.container-fluid {
+    padding: 0;
+}
+
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: transparent;
+   
+}
+
+.bklmj {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.log-det {
+    padding: 40px;
+    background-color: #FF2953;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .log-det h2 {
+        margin-bottom: 20px;
+    }
+
+.past p {
+    margin: 0;
+    color: #fff;
+}
+
+.past a {
+    color: #FF2953;
+    cursor: pointer;
+}
+
+.text-box-cont {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.input-group {
+    /*margin-right: 60px;*/
+    margin-inline: auto;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 700px;
+}
+
+    .input-group:focus {
+        outline: none;
+    }
+
+    .input-group .form-control {
+        border-radius: 30px;
+        width: 100%;
+        padding: 20px;
+        background: transparent;
+        border: 2.5px solid white;
+        color: white;
+    }
+
+        .input-group .form-control::placeholder {
+            color: white;
+            opacity:0.6;
+        }
+
+.forget-p {
+    color: #fff;
+    cursor: pointer;
+}
+
+.right-bkij {
+    text-align: center;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+.linkoi {
+    display: flex;
+    align-items: center;
+}
+
+    .linkoi p {
+        margin: 0;
+        color: #fff;
+    }
+
+    .linkoi ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .linkoi ul li {
+            /* margin-right: 10px; */
+            color: #fff;
+            cursor: pointer;
+            margin-inline-start: 15px;
+        }
+
+.box-de {
+    background-color: #252233;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.ditk-inf {
+    width: 100%;
+    margin-top: 10px;
+    margin-inline: auto;
+}
+
+    .ditk-inf h2 {
+        margin-bottom: 20px;
+    }
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.login-btn {
+    color: white;
+    margin-top: 25px;
+    background: transparent;
+    border: 2px solid white;
+    padding: 12px 25px;
+    font-weight: 600;
+    transition: all 0.2s ease-in;
+}
+
+    .login-btn:hover {
+        color: #FF2953;
+        background: white;
+    }
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+    .social-icons li i {
+        color: #fff;
+        transition: all 0.2s ease-in
+    }
+
+        .social-icons li i:hover {
+            opacity: 0.8;
+        }
+
+
+#login {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* margin-inline: auto; */
+    align-items: center;
+}
+
+
+.welcome {
+    width: 100%;
+    margin-inline: auto;
+}
+</style>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

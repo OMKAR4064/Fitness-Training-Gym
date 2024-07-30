@@ -1,0 +1,461 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\register\\editform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\register\\editform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\register\\registrationform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\register\\registrationform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\register\\allformlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\register\\allformlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\register\\singleformdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\register\\singleformdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\wwwroot\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\wwwroot\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\register\\deleteform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\register\\deleteform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BeFit_DB/True/SqlTable/dbo.Register.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BeFit_DB/True/SqlTable/dbo.Admin.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\users\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\users\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\views\\home\\tranner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\views\\home\\tranner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\wwwroot\\css\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\wwwroot\\css\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\fitnessgym.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\fitnessgym.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|c:\\users\\dell\\desktop\\fitnessgym\\fitnessgym\\fitnessgym\\wwwroot\\css\\style.css.map||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A294EC25-F115-41EF-852D-AFEF2C7C7484}|FitnessGym\\FitnessGym.csproj|solutionrelative:fitnessgym\\wwwroot\\css\\style.css.map||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAACYBAAAAAAAAAAAAACIAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T10:33:43.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FitnessGym\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FitnessGym\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAIAywDYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T10:30:32.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Registration.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Home\\Registration.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Registration.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Home\\Registration.cshtml",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAswGoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T10:37:29.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "FitnessGym\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "FitnessGym\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAQwK0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:59:36.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "FitnessGym\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "FitnessGym\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:59:53.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "FitnessGym\\Models\\Register.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Models\\Register.cs",
+              "RelativeToolTip": "FitnessGym\\Models\\Register.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T17:07:02.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAOkBAAAAAAAAAAAAADwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T09:35:13.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "FitnessGym\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "FitnessGym\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T06:51:24.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\EditForm.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Register\\EditForm.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\EditForm.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Register\\EditForm.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T13:23:54.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistrationForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\RegistrationForm.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Register\\RegistrationForm.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\RegistrationForm.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Register\\RegistrationForm.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAFEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T19:08:05.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AllFormList.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\AllFormList.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Register\\AllFormList.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\AllFormList.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Register\\AllFormList.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T18:22:30.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SingleFormDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\SingleFormDetails.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Register\\SingleFormDetails.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\SingleFormDetails.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Register\\SingleFormDetails.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAE0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T20:23:06.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T10:39:56.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\wwwroot\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "FitnessGym\\wwwroot\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\wwwroot\\css\\bootstrap.css",
+              "RelativeToolTip": "FitnessGym\\wwwroot\\css\\bootstrap.css",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAJsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-09T16:21:54.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\DeleteForm.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Register\\DeleteForm.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Register\\DeleteForm.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Register\\DeleteForm.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T15:30:59.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.Register [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BeFit_DB/True/SqlTable/dbo.Register.sql",
+              "ToolTip": "dbo.Register [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-09T13:23:02.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T10:40:01.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbo.Admin [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BeFit_DB/True/SqlTable/dbo.Admin.sql",
+              "ToolTip": "dbo.Admin [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-09T13:30:14.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "FitnessGym\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-09T13:32:52.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "FitnessGym\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Models\\Admin.cs",
+              "RelativeToolTip": "FitnessGym\\Models\\Admin.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T09:18:19.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T10:39:25.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Program.cs",
+              "RelativeDocumentMoniker": "FitnessGym\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Program.cs",
+              "RelativeToolTip": "FitnessGym\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwB4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T17:11:12.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FitnessGym\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Models\\User.cs",
+              "RelativeToolTip": "FitnessGym\\Models\\User.cs",
+              "ViewState": "AQIAAPUAAAAAAAAAAAArwN0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T09:32:43.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Users\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Users\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Users\\SignUp.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Users\\SignUp.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T17:52:29.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Tranner.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Tranner.cshtml",
+              "RelativeDocumentMoniker": "FitnessGym\\Views\\Home\\Tranner.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\Views\\Home\\Tranner.cshtml",
+              "RelativeToolTip": "FitnessGym\\Views\\Home\\Tranner.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T10:40:24.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "style.scss",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\wwwroot\\css\\style.scss",
+              "RelativeDocumentMoniker": "FitnessGym\\wwwroot\\css\\style.scss",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\wwwroot\\css\\style.scss",
+              "RelativeToolTip": "FitnessGym\\wwwroot\\css\\style.scss",
+              "ViewState": "AQIAAD0CAAAAAAAAAAAgwEACAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-07-07T09:46:28.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FitnessGym.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\FitnessGym.csproj",
+              "RelativeDocumentMoniker": "FitnessGym\\FitnessGym.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\FitnessGym.csproj",
+              "RelativeToolTip": "FitnessGym\\FitnessGym.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-07T09:57:50.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "style.css.map",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\wwwroot\\css\\style.css.map",
+              "RelativeDocumentMoniker": "FitnessGym\\wwwroot\\css\\style.css.map",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\FitnessGym\\FitnessGym\\FitnessGym\\wwwroot\\css\\style.css.map",
+              "RelativeToolTip": "FitnessGym\\wwwroot\\css\\style.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-07T09:47:01.873Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

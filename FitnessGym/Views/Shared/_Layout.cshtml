@@ -1,0 +1,489 @@
+﻿<!DOCTYPE html>
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    string str=null;
+    if (HttpContextAccessor.HttpContext.Session.GetString("sessinoName") != null)
+    {
+        str = HttpContextAccessor.HttpContext.Session.GetString("sessinoName");
+    }
+    }
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/responsive.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="../Content/css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="../Content/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="../Content/css/responsive.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="#">
+                        <span>
+                            BeFit
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item ">
+                                    @* <a class="nav-link">@Html.ActionLink("Home", "Index", "Home") <span class="sr-only">(current)</span></a> *@
+                                    <a class="nav-link" href="@Url.Action("Index", "Home")">Home</a>
+                                </li>&nbsp;
+                                <li class="nav-item ">
+                                    
+                                    <a class="nav-link" href="@Url.Action("About", "Home")">About</a>
+                                </li>&nbsp;
+
+                                <li class="nav-item">
+                                   
+                                    <a class="nav-link" href="@Url.Action("Tranner", "Home")">Trainner</a>
+                                </li>&nbsp;
+                                <li class="nav-item">
+                                    
+                                    <a class="nav-link" href="@Url.Action("Contact", "Home")">Contact Us</a>
+                                </li>&nbsp;
+                                 @{
+                                    if (str != null)
+                                    {
+                                <li class="nav-item">
+                                    
+                                    <a class="nav-link" href="@Url.Action("RegistrationForm", "Register")">Register</a>
+                                    
+                                        </li>
+                                    }
+                                }&nbsp;
+                                    
+                                <li class="nav-item">
+                                    @{
+                                        if (str != null)
+                                        {
+                                                <a class="nav-link" href="@Url.Action("LogOut", "Home")">Logout</a>
+                                        }
+                                        else
+                                        {
+                                            <a class="nav-link" href="@Url.Action("Login", "Home")">Login</a>
+                                        }
+
+                                    }
+                                    @* <a class="nav-link">@Html.ActionLink("Login", "Login", "Home")</a> *@
+                                </li>&nbsp;
+                            </ul>
+                            <div class="user_option">
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+        <!-- slider section -->
+        <section class=" slider_section position-relative">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="col-lg-10 col-md-11 mx-auto">
+                                <div class="detail-box">
+                                    <div>
+                                        <h3>
+                                            Fitness
+                                        </h3>
+                                        <h2>
+                                            Training
+                                        </h2>
+                                        <h1>
+                                            BeFit
+                                        </h1>
+                                        <p>
+
+                                        </p>
+                                        <div class="">
+
+                                            <a class="nav-link" href="@Url.Action("Contact", "Home")">Contact Us</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="col-lg-10 col-md-11 mx-auto">
+                                <div class="detail-box">
+                                    <div>
+                                        <h3>
+                                            Fitness
+                                        </h3>
+                                        <h2>
+                                            Training
+                                        </h2>
+                                        <h1>
+                                            BeFit
+                                        </h1>
+                                        <p>
+
+                                        </p>
+                                        <div class="">
+                                            @{
+                                                if (str != null)
+                                                {
+                                                    if (!str.Equals("Admin"))
+                                                    {
+                                                        <a class="nav-link" href="@Url.Action("RegistrationForm", "Register")">Register Now</a>
+                                                    }else{
+                                                        <a class="nav-link" href="@Url.Action("Contact", "Home")">Contact Us</a>
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    <a class="nav-link" href="@Url.Action("Contact", "Home")">Contact Us</a>
+                                                }
+                                            }
+                                            
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="col-lg-10 col-md-11 mx-auto">
+                                <div class="detail-box">
+                                    <div>
+                                        <h3>
+                                            Fitness
+                                        </h3>
+                                        <h2>
+                                            Training
+                                        </h2>
+                                        <h1>
+                                            BeFit
+                                        </h1>
+                                        <p>
+                                            
+                                        </p>
+                                        <div class="">
+                                            <a class="nav-link" href="@Url.Action("Contact", "Home")">Contact Us</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                   @*  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                     *@
+                </ol>
+            </div>
+        </section>
+        <!-- end slider section -->
+    </div>
+
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+ 
+ 
+ <!-- footer section -->
+
+    <footer class="container-fluid footer_section">
+        <div class="row footer-part">
+            <div class="col-md-4 col-sm-12 ">
+                <div class="footer-right">
+                    <div class="right-data">
+                <div class="address">
+                    <h4>BeFit</h4>
+                    <p>Welcome to BeFit</p>
+                </div>
+                <div class="address1">
+                    <p>Email: BeFit@gmail.com</p>
+                    <p>Phone: +91-7969375755</p>
+                    <p>Address: CDAC, Mumbai</p>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 center-footer">
+                <div class="footer-right">
+                    <div class="right-data">           
+                        <a class="nav-link" href="@Url.Action("Index", "Home")">Home</a>
+                        <a class="nav-link" href="@Url.Action("About", "Home")">About</a>     
+                        <a class="nav-link" href="@Url.Action("Contact", "Home")">Contact Us</a>
+                        <a class="nav-link" href="@Url.Action("Tranner", "Home")">Trainers</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 right-footer">
+                <div class="footer-right">
+                    <div class="right-data">
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                        <a href="#"><i class="ri-twitter-line"></i></a>
+                        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row copyRight text-center">
+            <p>
+                &copy; 2024 | All Rights Reserved | Developed by
+                <a href="#">Team 16</a>
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="../Content/js/jquery-3.4.1.min.js"></script>
+    <script src="../Content/js/bootstrap.js"></script>
+
+    <style>
+        .footer_section {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.footer-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.left-footer, .center-footer, .right-footer {
+    margin-bottom: 20px;
+}
+
+.address1 p {
+    margin: 0;
+}
+
+.right-data a {
+    display: block;
+    margin-bottom: 5px;
+    opacity:0.8;
+    color: white;
+    text-decoration: none;
+}
+
+.right-data a:hover {
+    text-decoration: underline;
+}
+
+.copyRight {
+    padding: 10px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.copyRight a {
+    color: #17a2b8;
+}
+
+.copyRight a:hover {
+    text-decoration: underline;
+}
+
+.right-footer .right-data a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+   @@media (max-width: 767px) {
+    .footer_section {
+        text-align: center;
+    }
+    
+    .right-footer .right-data a {
+        margin-bottom: 10px;
+    }
+}
+
+
+    </style>
+
+    <style>
+        .footer_section {
+            background-color: #252233;
+            width: 100%;
+            height: auto;
+        }
+
+        .footer-part {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px
+        }
+
+        .left-footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+            margin-block: 10px;
+        }
+
+        .footer-right {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .address {
+            display: flex;
+            flex-direction: column;
+            margin-block: 5px;
+            color: white;
+            opacity: 0.8;
+        }
+
+        .address1 {
+            display: flex;
+            flex-direction: column;
+            margin-block: 5px;
+            color: white;
+            opacity: 0.8;
+            z-index: 6;
+        }
+
+            .address1 p {
+                color: white;
+                opacity: 0.8;
+            }
+
+        .address h4 {
+            color: #FF2953;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .right-data {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-block: 10px;
+            align-items: center;
+            color: white;
+        }
+
+            .right-data a {
+                font-size: 16px;
+                font-weight: 600;
+                opacity: 0.8;
+                margin-block: 5px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+            }
+
+            .right-data i {
+                font-size: 20px;
+                font-weight: 500;
+                opacity: 0.8;
+                color: white;
+                margin-block: 5px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+            }
+
+                .right-data i:hover {
+                    color: #FF2953;
+                }
+
+            .right-data a:hover {
+                color: #FF2953;
+            }
+
+        .copyRight {
+            width: 90%;
+            margin-inline: auto;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 8px;
+        }
+
+            .copyRight p {
+                font-size: 14px;
+                opacity: 0.9;
+                color: white;
+            }
+
+            .copyRight a {
+                font-size: 16px;
+                opacity: 0.9;
+                color: #FF2953;
+            }
+
+    </style>
+
+
+
+
+
+
+    <!-- footer section -->
+    @* <footer class="container-fluid footer_section">
+        <p>
+            &copy; 2024 All Rights Reserved. Develoepd by
+            <a href="#">Team 16</a>
+        </p>
+    </footer> *@
+    <!-- footer section -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/jquery-3.4.1.min.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

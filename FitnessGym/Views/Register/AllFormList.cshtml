@@ -1,0 +1,123 @@
+﻿@model IEnumerable<BeFir.Models.Register>
+@* @model IEnumerable<FitnessGym.Models.Register> *@
+   @inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "AllFormList";
+}
+
+
+
+<div class="container-fluid UserList">
+    <h1 style="color:#FF2953; font-size:30px; margin-bottom : 30px ; margin-top: 20px; font-weight :600; padding: 30px 0px;">All Users Data</h1>
+    <div class="row">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="heading">
+                        @Html.DisplayNameFor(model => model.RegistrationId)
+                    </th>
+                    <th class="heading">
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th class="heading">
+                        @Html.DisplayNameFor(model => model.Gender)
+                    </th>
+                    <th class="heading">
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th class="heading">
+                        @Html.DisplayNameFor(model => model.PhoneNumber)
+                    </th>
+                    <th class="heading">
+                        @Html.DisplayNameFor(model => model.Address)
+                    </th>
+                    <th class="heading">
+                        @Html.DisplayNameFor(model => model.Package)
+                    </th>
+                    <th class="heading">
+                        @Html.DisplayNameFor(model => model.Trainer)
+                    </th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="listData">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RegistrationId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Gender)
+                        </td>
+                        <td class="email">
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PhoneNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Address)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Package)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Trainer)
+                        </td>
+                        <td class="actionBtn">
+                            @Html.ActionLink("Edit", "EditForm", new { id = item.RegistrationId }) |
+                            @Html.ActionLink("Details", "SingleFormDetails", new { id = item.RegistrationId }) |
+                            @Html.ActionLink("Delete", "DeleteForm", new { id = item.RegistrationId })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+
+<style>
+
+    .UserList{
+        background-color: #252233;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: white;
+        height:auto;
+    }
+    .listData{
+        color :white;
+    }
+
+    .heading {
+        color: #FF2953;
+    }
+
+    .email{
+        color:white;
+    }
+
+    .actionBtn a {
+        border: 1px solid white;
+        padding: 6px 15px;
+        text-decoration: none;
+        font-size: 14px;
+        color: #FF2953;
+        transition: all 0.2s ease-in;
+    }
+
+        .actionBtn a:hover {
+            border: 1px solid #FF2953;
+            background-color: #FF2953;
+            color: white;
+        }
+</style>

@@ -1,0 +1,133 @@
+﻿@* @model FitnessGYM_App_MVC.Models.TblUser *@
+@model BeFir.Models.User;
+@{
+    ViewBag.Title = "Registration";
+    // Layout = "~/Views/Shared/_LayoutMasterPage.cshtml";
+}
+
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+<style>
+    body {
+        background-color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .registration-container {
+        margin-block: 50px;
+        width: 600px;
+        margin-inline: auto;
+        background-color: #252233;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        color: white;
+        font-size: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #FF2953;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .signUpBtn {
+        width: 40%;
+        margin-inline: auto;
+        padding: 8px 15px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        border-radius: 10px;
+        transition: all 0.2s ease;
+        display: flex;
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 21px;
+    }
+
+        .signUpBtn:hover {
+            background-color: #FF2953;
+            color: white;
+            border: 2px solid #FF2953;
+        }
+
+    .text-box-cont {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+
+    .input-group .form-control {
+        background: none;
+        border: 2px solid white;
+        color: white;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+        .input-group .form-control::placeholder {
+            color: white;
+            opacity: 0.8;
+        }
+</style>
+
+<center>
+    <div class="registration-container">
+        <div>
+            <h1>Sign Up</h1>
+            <div class="text-box-cont">
+                @using (Html.BeginForm("userRegistration", "Users", FormMethod.Post))
+                {
+                    <div id="SignUp">
+
+                        <div class="input-group mb-3 data">
+                            @Html.TextBoxFor(m => m.Username, new { @class = "form-control login-input", @placeholder = "Username", @aria_label = "Username", @aria_describedby = "basic-addon1" })
+                        </div>
+                        <div class="input-group mb-3">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control login-input", @placeholder = "Email", @aria_label = "Email", @aria_describedby = "basic-addon1" })
+                    </div>
+                        <div class="input-group mb-3 data">
+                            @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control login-input", @placeholder = "Phone", @aria_label = "Phone", @aria_describedby = "basic-addon1" })
+                        </div>
+                        <div class="input-group mb-3 data">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control login-input", @placeholder = "Password", @aria_label = "Password", @aria_describedby = "basic-addon1" })
+                        </div>
+                    </div>
+                    <p>@ViewBag.Msg</p>
+                    <div class="right-bkij mb-3">
+                        <input type="submit" value="Sign Up" class="btn btn-round signUpBtn" />
+                    </div>
+                }
+            </div>
+
+        </div>
+    </div>
+
+</center>
+
+   
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+
+
+
+
+

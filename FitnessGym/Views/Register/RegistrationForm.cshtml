@@ -1,0 +1,189 @@
+﻿@model BeFir.Models.Register
+
+@{
+    ViewData["Title"] = "RegistrationForm";
+}
+
+
+<div class=" container mt-5 mb-5" style="background: #252233; border-radius: 15px;">
+    <div class="row register-block">
+        <div class="col-lg-6 left-content">
+            <h2>Welcome to <span>BeFit</span></h2>
+            <p>Commit to be fit – register now for exclusive member benefits.</p>
+        </div>
+
+        <div class="col-lg-6 right-content">
+            
+            <div class="row">
+                <h2 class="register-now">Registration form</h2>
+            </div>
+
+                  <div class="row">
+                        <form asp-action="RegistrationForm" class="register-form">
+                       @*      <div asp-validation-summary="ModelOnly" class="text-danger"></div> *@
+                            @* <div class="form-group">
+                            <label asp-for="RegistrationId" class="control-label"></label>
+                            <input asp-for="RegistrationId" class="form-control" />
+                            <span asp-validation-for="RegistrationId" class="text-danger"></span>
+                            </div> *@
+                            <div class="form-group">
+                                <label asp-for="Name" class="control-label"></label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                    <div class="form-group">
+                        <label asp-for="Gender" class="control-label"></label>
+                        <div>
+                            <input type="radio" asp-for="Gender" value="Male" /> Male
+                            <input type="radio" asp-for="Gender" value="Female" /> Female
+                            <input type="radio" asp-for="Gender" value="Other" /> Other
+                        </div>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                            <div class="form-group">
+                                <label asp-for="Email" class="control-label"></label>
+                                <input asp-for="Email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="PhoneNumber" class="control-label"></label>
+                                <input asp-for="PhoneNumber" class="form-control" />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Address" class="control-label"></label>
+                                <input asp-for="Address" class="form-control" />
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                    <div class="form-group">
+                        <label asp-for="Package" class="control-label"></label>
+                        <select asp-for="Package" class="form-control">
+                            <option value="Basic">Basic</option>
+                            <option value="Standard">Standard</option>
+                            <option value="Premium">Premium</option>
+                        </select>
+                        <span asp-validation-for="Package" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Trainer" class="control-label"></label>
+                        <select asp-for="Trainer" class="form-control">
+                            <option value="Rahul">Rahul</option>
+                            <option value="Saurabh">Saurabh</option>
+                            <option value="Aditya">Aditya</option>
+                            <option value="Disha">Disha</option>
+                            <option value="Omkar">Omkar</option>
+                        </select>
+                        <span asp-validation-for="Trainer" class="text-danger"></span>
+                    </div>
+                            <div class="form-group">
+                        <input type="submit" value="Register" class="btn Register-btn" />
+                            </div>
+                        </form>
+                  </div>
+               
+            
+        </div>
+
+    </div>
+
+</div>
+
+<style>
+
+    .register-block {
+        display: flex;
+        justify-content:space-between;
+        padding:20px;
+       border-radius : 10px;
+    }
+    .left-content{
+        display : flex;
+        flex-direction: column;
+        justify-content : center;
+        text-align : center;
+        align-items : center;
+    }
+    .left-content h2{
+        color : white;
+        font-size : 40px;
+        font-weight: 600;
+    
+    
+    }
+    .left-content span{
+            color: #FF2953;
+    
+    }
+    .left-content p{
+            color : lightgrey;
+            opacity: 0.9;
+            font-size : 17px;
+            width:80%;
+            margin-inline:auto;
+    
+    }
+
+    .right-content{
+        padding : 20px;
+        color: white;
+
+    }
+
+    .register-now{
+        color: #FF2953;
+        font-weight:600;
+        font-size:30px;
+        margin-bottom : 30px;
+    }
+
+    .register-form .form-control {
+        background-color : transparent;
+        border : 2px solid white;
+        padding : 5px 20px;
+        color : white;
+        font-size : 15px;
+    
+    }
+    .register-form .form-control:focus{
+        outline : none;
+    }
+
+    .register-form .form-control::placeholder {
+        color: white;
+        opacity:0.8;
+    }
+
+    .form-control option {
+        background-color: white; /* Keep options readable with a white background */
+        color: black; /* Text color for options */
+    }
+
+
+    .Register-btn{
+        background-color : transparent;
+        border : 2px solid white;
+        padding : 10px 20px;
+        font-size : 16px;
+        font-weight : 600;
+         cursor : pointer;
+         border-radius : 5px;
+         transition : all 0.2s ease;
+         color: white;
+        margin-top: 20px;
+        width: 40%;
+    }
+    .Register-btn:hover{
+            border: 2px solid #FF2953;
+            background-color: #FF2953;
+    }
+
+</style>
+
+
+@* <div>
+    <a asp-action="AllFormList">Back to List</a>
+</div> *@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

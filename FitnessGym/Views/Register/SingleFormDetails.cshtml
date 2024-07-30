@@ -1,0 +1,121 @@
+﻿@model BeFir.Models.Register
+
+@{
+    ViewData["Title"] = "SingleFormDetails";
+}
+
+
+<div class="container delete-card">
+
+    <h1>User Data</h1>
+
+    <div>
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.RegistrationId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.RegistrationId)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Gender)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Gender)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Address)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Address)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Package)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Package)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Trainer)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Trainer)
+            </dd>
+        </dl>
+
+       
+    </div>
+
+
+<div class="btns">
+        <div class="delete-btn"> @Html.ActionLink("Edit", "EditForm", new { id = Model.RegistrationId })</div> 
+    <a asp-action="AllFormList" class="backToList">Back to List</a>
+</div>
+
+<style>
+
+
+
+        .delete-card {
+            background-color: #252233;
+            padding: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            color: white;
+        }
+
+            .delete-card h1 {
+                color: #FF2953;
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+
+        .btns {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            color:white;
+        }
+
+            .btns .delete-btn {
+                padding: 8px 25px;
+                font-size: 16px;
+                color: white;
+                background-color: #FF2953;
+                text-decoration: none;
+            }
+
+            .btns .backToList {
+                border: 1px solid white;
+                padding: 8px 20px;
+                text-decoration: none;
+                font-size: 16px;
+                color: #FF2953;
+                transition : all 0.2s ease-in;
+            }  
+            .btns .backToList:hover {
+                    border: 1px solid #FF2953;
+                    background-color: #FF2953;
+                    color: white;
+            }
+</style>
